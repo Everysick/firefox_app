@@ -1,8 +1,8 @@
 {
-	"name": "HelloFireFox",
-	"description": "My First app",
-	"launch_path": "/index.html",
-	"icons": {
-		 "128": "/img/icons/icon_128.png"
-	}
+  "name": "HelloFireFox",
+  "description": "My First app",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icons/firefox.png"
+  }
 }
