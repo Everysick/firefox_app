@@ -1,8 +1,15 @@
 {
-  "name": "HelloFireFox",
-  "description": "My First app",
+  "name": "Utilities",
+  "description": "FirefoxOS Application",
   "launch_path": "/index.html",
   "icons": {
     "128": "/img/icons/firefox.png"
+  },
+  "type": "privileged",
+  "permissions": {
+    "power": {
+      "description": "for util"
+    }
   }
+  
 }
