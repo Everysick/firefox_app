@@ -1,7 +1,7 @@
 {
   "name": "Utilities",
   "description": "FirefoxOS Application",
-  "launch_path": "/index.html",
+  "launch_path": "/index.html#panel1",
   "icons": {
     "128": "/img/icons/firefox.png"
   },
@@ -11,5 +11,4 @@
       "description": "for util"
     }
   }
-  
 }

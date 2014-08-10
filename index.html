@@ -4,7 +4,6 @@
   <title>Hello FirefoxOS</title>
   <script src="js/main.js"></script>
   <script src="js/lib/jquery-1.11.1.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/highcharts.js"></script>
   <script type="text/javascript" src="js/highcharts-more.js"></script>
   <script type="text/javascript" src="js/exporting.js"></script>
@@ -201,7 +200,7 @@
     
     <ul role="tablist" class="bb-tablist">
       <li id="panel1" role="presentation">
-        <a id="tab1" href="#panel1" role="tab" aria-controls="tabpanel1">Battery</a>
+        <a id="tab1" href="#panel1" selected="selected" role="tab" aria-controls="tabpanel1">Battery</a>
         <div id="tabpanel1" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab1">
         <section role="region">
           <header class="fixed">
@@ -209,30 +208,25 @@
           </header>
           <article class="content scrollable header">
             <div id="container">なんでや</div>
-            <button class="recommend" id="updateButton">Update Battery Status</button>
           </article>
         </section>
         </div>
       </li>
       
       <li id="panel2" role="presentation">
-        <a id="tab2" href="#panel2" role="tab" aria-controls="tabpanel2">comms</a>
+        <a id="tab2" href="#panel2" role="tab" aria-controls="tabpanel2">Time</a>
         <div id="tabpanel2" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab2">
-
-        </div>
-      </li>
-
-      <li id="panel3" role="presentation">
-        <a id="tab3" href="#panel3" role="tab" aria-controls="tabpanel3">dialer</a>
-        <div id="tabpanel3" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab3">
-
-        </div>
-      </li>
-      
-      <li id="panel4" role="presentation">
-        <a id="tab4" href="#panel4" role="tab" aria-controls="tabpanel4">dialer</a>
-        <div id="tabpanel4" class="bb-tabpanel" role="tabpanel" aria-labelledby="tab4">
-
+          <section role="region">
+            <header class="fixed">
+              <h1>Battery Life</h1>
+            </header>
+            <article class="content scrollable header">
+              <h1>バッテリー状態</h1>
+              <div id="booleans"></div>
+              <h1 id="battery_type"></h1>
+              <div id="times"></div>
+            </article>
+          </section>
         </div>
       </li>
     </ul>
